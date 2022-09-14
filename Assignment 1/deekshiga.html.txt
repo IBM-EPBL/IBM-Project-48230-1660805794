@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Responsive page</title>
+<link rel="stylesheet"href="shi.css"type="text/css">
+</head>
+<body>
+<style>
+body{
+background-color:lightblue;
+}
+</style>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Deekshiga T</h1>
+  <h3>CSI COLLEGE OF ENGINEERING</h3>
+  <hr />
+  <br>
+  <img src="csi.jpg" style="width:100px;height:100px;">
+
+  <p class="head">Contact</p>
+ <ul>
+<li>Phone: 6379039460</li>
+<li>Email: t.deekshi20@gmail.com</li>
+<li>Address: 17/161,Denelai village,Sogathorai post,The Nilgiris-643102</li>
+</ul>
+       <p class="head">Area of Interests</p>
+  <ul>
+   <li> Java</li>
+    <li>Python</li>
+    <li>React Native</li>
+    <li>Full Stack</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>HTML</li>
+    <li>Java</li>
+    <li>SQL</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <li>X Grade </li>
+   <li>Brindavan Public School</li>
+   <li>Percentage-72%</li>
+   </ul>
+  <ul>
+    <li>XII Grade</li> 
+    <li>Stanes School Coonoor</li>
+    <li>Percentage-76%</li>
+  </ul>
+  <ul>
+    <li>CSI College Of Engineering</li>
+    <li>BE.Computer Science Engineering-Cgpa(8.41)
+</ul>
+<p class="head">Technical Events Participation</p>
+<ul>
+<li>Attended workshop on 3d printing technology</li>
+<li>Participated inIGEN green day</li>
+<li>webinar on transitioning from student to a successful proffesional</li>
+<li>nanomaterials and its application to science and engineering</li>
+<li>Robotics Process Automation</li>
+</ul>
+<p class="head">Projects</p>
+<ul>
+<li>Restaurant Reservation Automation using Cross Platform</li>
+<li>Real time Project:Personal Expense Tracker In Cloud Computing</li>
+   </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Deekshiga T</h2></div>
+</body>
+</html>
