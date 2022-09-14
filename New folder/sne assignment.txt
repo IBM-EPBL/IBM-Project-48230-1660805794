@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>Responsive page</title>
+<link rel="stylesheet"href="prog.css"type="text/css">
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Sneka TL</h1>
+  <h3>CSI COLLEGE OF ENGINEERING</h3>
+  <hr />
+  <br>
+  <img src="sneg.jpg" style="width:100px;height:100px;">
+  <p class="head">Contact</p>
+ <ul>
+<li>Phone: 9566905919</li>
+<li>Email: tlsneka@gmail.com</li>
+<li>Address: 63, Mission Hill Coonoor-643102</li>
+</ul>
+       <p class="head">Interests</p>
+  <ul>
+   <li>craft work</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Computer Science</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>software development</li>
+    <li>web development</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <li>St.Joseph's Convent Coonoor </li>
+   <li>X Grade-82%</li>
+   </ul>
+  <ul>
+    <li>St.Joseph's Convent Coonoor</li> 
+    <li>XII Grade-51%</li>
+  </ul>
+  <ul>
+    <li>CSI College Of Engineering</li>
+    <li>BE.Computer Science Engineering-Cgpa(8.45)
+</ul>
+  <p class="head">Activities</p>
+  <ul>
+    <li>Attended workshop on 3d printing technology</li>
+    <li>Participated inIGEN green day</li>
+    <li>webinar on transitioning from student to a successful proffesional</li>
+    <li>nanomaterials and its application to science and engineering</li>
+    <li>webinar on "most in demand technologies and job opportunities"</li>
+</ul>
+  <p class="head">Projects</p>
+  <ul>
+    <li>Smart Waste Management</li>
+    <li>Personal Expense Tracker In Cloud Computing</li>
+   </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Sneka TL</h2></div>
+/*program for css*/
+* {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/*body {
+background-color:pink;
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: pink;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: pink;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color:pink;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: pink;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+.header{
+width:50%;
+padding:30px 0;
+text-align:center;
+background:pink;
+color:black;
+}
+}
