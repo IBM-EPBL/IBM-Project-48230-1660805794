@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>displaying bucket images</title>
+        <link rel="stylesheet" href="https://ibm-nutrition-assistant-application.s3.jp-tok.cloud-object-storage.appdomain.cloud/bucket.css"/>
+    </head>
+    <body>
+
+       
+        <img src="https://sandhiya.s3.jp-tok.cloud-object-storage.appdomain.cloud/csi1.jpg"  > 
+       
+        <img src="https://sandhiya.s3.jp-tok.cloud-object-storage.appdomain.cloud/csi2.jpg"  >
+        
+        <img src="https://sandhiya.s3.jp-tok.cloud-object-storage.appdomain.cloud/csi3.jpeg"  >
+        
+        <img src="https://sandhiya.s3.jp-tok.cloud-object-storage.appdomain.cloud/csi4.jpg"  >
+        
+        <img src="https://sandhiya.s3.jp-tok.cloud-object-storage.appdomain.cloud/csi5.jpg"  >
+
+        <script>
+          window.watsonAssistantChatOptions = {
+            integrationID: "4d0e37ae-ed7a-4e8b-995a-a91afd62378e", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "5e3edd53-6d9c-4d51-9d3d-7d8fe20ba64e", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+          });
+        </script>
+   
+    </body>
+</html>
