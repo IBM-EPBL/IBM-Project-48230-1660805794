@@ -1,0 +1,38 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>displaying bucket images</title>
+        <link rel="stylesheet"  href="https://nadhiya.s3.jp-tok.cloud-object-storage.appdomain.cloud/stylesheet.css">
+    </head>
+    <body>
+
+       
+        <img src="https://nadhiya.s3.ap.cloud-object-storage.appdomain.cloud/1.jpg" ><p style="text-align:center;">image 1 </p></br>
+       
+        <img src="https://nadhiya.s3.ap.cloud-object-storage.appdomain.cloud/2.jpg" ><p style="text-align:center;">image 2</p> </br>
+        
+        <img src="https://nadhiya.s3.ap.cloud-object-storage.appdomain.cloud/3.jpg" ><p style="text-align:center;">image 3</p></br>
+        
+        <img src="https://nadhiya.s3.ap.cloud-object-storage.appdomain.cloud/4.jpg" ><p style="text-align:center;">image 4 </p></br>
+        
+        <img src="https://nadhiya.s3.ap.cloud-object-storage.appdomain.cloud/5.jpg" ><p style="text-align:center;">image 5</p></br>
+        
+
+        <script>
+          window.watsonAssistantChatOptions = {
+            integrationID: "3b3219fb-ca16-4c5c-b48f-7dbc6b39ba62", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "5b7eeb86-e7c8-4bca-b845-6ed60a02ea3a", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+          });
+        </script>
+   
+    </body>
+</html>
