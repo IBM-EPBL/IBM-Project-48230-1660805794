@@ -1,0 +1,14 @@
+def create_bucket(bucket_name):
+    print("Creating new bucket: {0}".format(bucket_name))
+    try:
+        cos.Bucket(bucket_name).create(
+            CreateBucketConfiguration={
+                "LocationConstraint":COS_BUCKET_LOCATION
+            }
+        )
+        print("Bucket: {0} created!".format(bucket_name))
+    except ClientError as be:
+        print("CLIENT ERROR: {0}\n".format(be))
+    except Exception as e:
+        print("Unable to create bucket: {0}".format(e))
+

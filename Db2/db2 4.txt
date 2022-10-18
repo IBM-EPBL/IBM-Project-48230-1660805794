@@ -1,0 +1,17 @@
+def delete_bucket(bucket_name):
+    print("Deleting bucket: {0}".format(bucket_name))
+    try:
+        cos.Bucket(bucket_name).delete()
+        print("Bucket: {0} deleted!".format(bucket_name))
+    except ClientError as be:
+        print("CLIENT ERROR: {0}\n".format(be))
+    except Exception as e:
+        print("Unable to delete bucket: {0}".format(e))
+
+#Call methods
+create_bucket("ibm-estore")
+
+get_buckets()
+
+delete_bucket('project2022')
+
